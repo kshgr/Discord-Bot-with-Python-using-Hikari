@@ -8,7 +8,7 @@
 
 * Part 1 (Setup)
 
-  * [Files](/Part%201)
+  * [Files](/Part%201%20-%20Setup)
 
   * [Video](https://youtu.be/GN2-uyDwm4A)
 
