@@ -2,7 +2,9 @@
 
 This is the first part of the new Discord Bot with Python using Hikari tutorial series.
 In this [video](https://www.youtube.com/watch?v=GN2-uyDwm4A), we go over how to setup the Discord Bot.
+
 [![Thumbnail](Thumbnail.png)](https://www.youtube.com/watch?v=GN2-uyDwm4A)
+
 
 ## Installation
 
