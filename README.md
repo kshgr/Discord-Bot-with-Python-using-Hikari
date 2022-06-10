@@ -23,4 +23,4 @@ Create your very own Discord Bot here!
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](/LICENSE)
