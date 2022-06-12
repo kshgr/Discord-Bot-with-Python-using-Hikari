@@ -1,4 +1,4 @@
-# Part 1 - Setup
+# Part 2 - Message Events
 
 This is the second episode of this series Creating a Discord Bot with Python using Hikari API. 
 In this [video](https://youtu.be/RKU2lTa6jSE), we will be focusing on Message Events and understanding their Properties.
