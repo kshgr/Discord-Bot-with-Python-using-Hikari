@@ -25,12 +25,12 @@ async def handle_message(event):
     Embed = event.embeds
     Message = event.message
     Message_ID = event.message_id
-    channel_ID = event.channel_id
+    Channel_ID = event.channel_id
     Guild_ID = event.guild_id
     Bot = event.is_bot
     Human = event.is_human
     Webhook = event.is_webhook
-    print(Author, " said ", Content, " on ", channel_ID, " ", Guild_ID)
+    print(Author, " said ", Content, " on ", Channel_ID, " ", Guild_ID)
 
 @bot.listen(hikari.DMMessageCreateEvent)
 async def handle_DM_message(event):

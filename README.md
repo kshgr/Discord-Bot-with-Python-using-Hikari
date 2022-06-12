@@ -12,6 +12,12 @@
 
   * [Video](https://youtu.be/GN2-uyDwm4A)
 
+* Part 2 (Message Events)
+
+  * [Files](/Part%202%20-%20Message%20Events)
+
+  * [Video](https://youtu.be/RKU2lTa6jSE)
+
 
 ## Resources
 
