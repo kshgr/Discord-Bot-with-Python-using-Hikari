@@ -1,24 +1,54 @@
 # Part 1 - Setup
 
-This is the first part of the new Discord Bot with Python using Hikari tutorial series.
-In this [video](https://www.youtube.com/watch?v=GN2-uyDwm4A), we go over how to setup the Discord Bot.
-
-[![Thumbnail](Thumbnail.png)](https://www.youtube.com/watch?v=GN2-uyDwm4A)
+This is the second episode of this series Creating a Discord Bot with Python using Hikari API. 
+In this [video](https://youtu.be/RKU2lTa6jSE), we will be focusing on Message Events and understanding their Properties.
 
 
-## Installation
+[![Thumbnail](Thumbnail.png)](https://youtu.be/RKU2lTa6jSE)
 
-Install the Hikari Package using eitehr of these commands
+## Types of Message Events
 
-```bash
-python -m pip install -U hikari
-# Windows users may need to run this instead...
-py -3 -m pip install -U hikari
+```python
+hikari.MessageCreateEvent       #Executes for all Messages
+hikari.DMMessageCreateEvent     #Executes ONLY for Messages sent in DM
+hikari.GuildMessageCreateEvent  #Executes ONLY for Messages sent on a server
+
+```
+
+
+## GuildMessageCreateEvent Properties 
+
+```python
+    Author = event.author           #Returns Username#1234
+    Author_ID = event.author_id     #Returns Unique Numeric UserID
+    Content = event.content         #Returns Text of Message as a String
+    Embed = event.embeds            #Returns Embed of Message
+    Message = event.message         #Returns all data of Message as a Dictionary
+    Message_ID = event.message_id   #Returns Unique Numeric MessageID
+    Channel_ID = event.channel_id   #Returns Unique Numeric ChannelID
+    Guild_ID = event.guild_id       #Returns Unique Numeric GuildID
+    Bot = event.is_bot              #Returns True or False
+    Human = event.is_human          #Returns True or False
+    Webhook = event.is_webhook      #Returns True or False
+```
+
+## DMMessageCreateEvent Properties
+
+```python
+    Author = event.author           #Returns Username#1234
+    Author_ID = event.author_id     #Returns Unique Numeric UserID
+    Content = event.content         #Returns Text of Message as a String
+    Embed = event.embeds            #Returns Embed of Message
+    Message = event.message         #Returns all data of Message as a Dictionary
+    Message_ID = event.message_id   #Returns Unique Numeric MessageID
+    Bot = event.is_bot              #Returns True or False
+    Human = event.is_human          #Returns True or False
+    Webhook = event.is_webhook      #Returns True or False
 ```
 
 ## Resources
 
-[Hikari Documentation](https://www.hikari-py.dev/)
+[Hikari Documentation for Message Events](https://www.hikari-py.dev/hikari/events/message_events.html)
 Read the docs for better understanding of the code.
 
 [Discord Developer](https://discord.com/developers/applications)
