@@ -1,7 +1,7 @@
 # Discord ChatBot with Python using Hikari
  This is an educational series to create a discord chatbot using Hikari, a Discord API Wrapper for Python
+ 
  [![Series Thumbnail](Thumbnail.webp)](https://www.youtube.com/playlist?list=PLpaMRtmEhzZah45Ie4j1QIQ91IHQsiB21)
-
 
 
 ## Quick Links
@@ -23,4 +23,4 @@ Create your very own Discord Bot here!
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](/LICENSE)
