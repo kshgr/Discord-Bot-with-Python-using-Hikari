@@ -1,11 +1,10 @@
-# Part 2 - Message Events
+# Part 3 - Ban Events
 
-This is the second episode of this series Creating a Discord Bot with Python using Hikari API. 
-In this [video](https://youtu.be/RKU2lTa6jSE), we will be focusing on Message Events and understanding their Properties.
+This is the third episode of this series Creating a Discord Bot with Python using Hikari API. 
+In this [video](https://youtu.be/yFiHXrp5k9Q) we will be focusing on events triggered when a user's Ban status is modified and understand their Properties
 
 
-[![Thumbnail](Thumbnail.png)](https://youtu.be/RKU2lTa6jSE)
-
+[![Thumbnail](Thumbnail.png)](https://youtu.be/yFiHXrp5k9Q)
 ## Types of Message Events
 
 ```python
