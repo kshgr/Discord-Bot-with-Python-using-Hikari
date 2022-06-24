@@ -20,7 +20,7 @@
 
 * Part 3 (Ban Events)
 
-  * [Files](/Part%203%20-%20Ban%20Events)
+  * [Files](/Part%203%20-%20Ban%20Event)
 
   * [Video](https://youtu.be/yFiHXrp5k9Q)
 
