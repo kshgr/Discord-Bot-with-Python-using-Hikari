@@ -14,7 +14,7 @@ Messages
 
 """
 @bot.listen(hikari.MessageCreateEvent)
-async def handle_allMessages(event):
+async def handle_all_Messages(event):
     print("A new message has been sent.")
 
 @bot.listen(hikari.GuildMessageCreateEvent)
