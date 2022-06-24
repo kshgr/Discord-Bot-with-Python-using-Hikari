@@ -18,6 +18,12 @@
 
   * [Video](https://youtu.be/RKU2lTa6jSE)
 
+* Part 3 (Ban Events)
+
+  * [Files](/Part%203%20-%20Ban%20Events)
+
+  * [Video](https://youtu.be/yFiHXrp5k9Q)
+
 
 ## Resources
 
