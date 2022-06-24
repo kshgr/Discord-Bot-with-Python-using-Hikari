@@ -5,12 +5,12 @@ In this [video](https://youtu.be/yFiHXrp5k9Q) we will be focusing on events trig
 
 
 [![Thumbnail](Thumbnail.png)](https://youtu.be/yFiHXrp5k9Q)
-## Types of Message Events
+## Types of Ban Events
 
 ```python
-hikari.MessageCreateEvent       #Executes for all Messages
-hikari.DMMessageCreateEvent     #Executes ONLY for Messages sent in DM
-hikari.GuildMessageCreateEvent  #Executes ONLY for Messages sent on a server
+hikari.BanEvent                 #Triggered for all Ban status change events
+hikari.BanCreateEvent           #Triggered when a user is banned from a server
+hikari.BanDeleteEvent  #Triggered when a user's ban is revoked from a server
 
 ```
 
