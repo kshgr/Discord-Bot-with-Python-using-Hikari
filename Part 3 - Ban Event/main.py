@@ -17,6 +17,7 @@ async def Ban_Event(event):
     
     print(f"There is an update to {user}'s Ban Status.")
 
+
 @bot.listen(hikari.BanCreateEvent)
 # Event triggered whenever a user is banned from a server.
 async def Ban_Create(event):
@@ -30,6 +31,7 @@ async def Ban_Create(event):
 
     print(f"{user} having {user_id} is banned from Guild - {guild_id} in Shard {shard}.")
 
+
 @bot.listen(hikari.BanDeleteEvent)
 # Event Triggered whenever a user is unbanned from a server.
 async def Unban(event):
@@ -40,5 +42,6 @@ async def Unban(event):
     user = event.user           # Gives Username#1234 for concerned user.
 
     print(f"{user} has been unbanned from Guild - {guild_id} in Shard - {shard}.")
+
 
 bot.run()
